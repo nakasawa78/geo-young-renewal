@@ -25,6 +25,8 @@ function applyTheme(theme: Theme) {
   root.style.setProperty("--text-main", theme.colors.textMain);
   root.style.setProperty("--gray", theme.colors.gray);
   root.style.setProperty("--background", theme.colors.background);
+  root.style.setProperty("--hero-from", theme.colors.heroFrom);
+  root.style.setProperty("--hero-to", theme.colors.heroTo);
   root.setAttribute("data-theme", theme.id);
   root.setAttribute("data-theme-style", theme.style);
   document.body.style.background = theme.colors.background;

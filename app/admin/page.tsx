@@ -183,6 +183,8 @@ export default function AdminPage() {
     root.style.setProperty("--neutral", theme.colors.neutral);
     root.style.setProperty("--text-main", theme.colors.textMain);
     root.style.setProperty("--gray", theme.colors.gray);
+    root.style.setProperty("--hero-from", theme.colors.heroFrom);
+    root.style.setProperty("--hero-to", theme.colors.heroTo);
     root.setAttribute("data-theme", theme.id);
     root.setAttribute("data-theme-style", theme.style);
 
@@ -201,6 +203,8 @@ export default function AdminPage() {
     root.style.setProperty("--neutral", theme.colors.neutral);
     root.style.setProperty("--text-main", theme.colors.textMain);
     root.style.setProperty("--gray", theme.colors.gray);
+    root.style.setProperty("--hero-from", theme.colors.heroFrom);
+    root.style.setProperty("--hero-to", theme.colors.heroTo);
     root.setAttribute("data-theme", theme.id);
     root.setAttribute("data-theme-style", theme.style);
     localStorage.setItem("geo-young-theme", DEFAULT_THEME_ID);

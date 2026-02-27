@@ -13,6 +13,8 @@ export interface Theme {
     textMain: string;
     gray: string;
     background: string;
+    heroFrom: string;
+    heroTo: string;
   };
   fonts: {
     display: string;
@@ -37,6 +39,8 @@ export const themes: Theme[] = [
       textMain: "#1A1A2E",
       gray: "#6B7280",
       background: "#ffffff",
+      heroFrom: "#070d16",
+      heroTo: "#0A1628",
     },
     fonts: { display: "serif", body: "sans-serif" },
     style: "decorative",
@@ -56,6 +60,8 @@ export const themes: Theme[] = [
       textMain: "#134E4A",
       gray: "#6B7280",
       background: "#ffffff",
+      heroFrom: "#021716",
+      heroTo: "#042F2E",
     },
     fonts: { display: "sans-serif", body: "sans-serif" },
     style: "moderate",
@@ -75,6 +81,8 @@ export const themes: Theme[] = [
       textMain: "#111111",
       gray: "#888888",
       background: "#ffffff",
+      heroFrom: "#000000",
+      heroTo: "#111111",
     },
     fonts: { display: "sans-serif", body: "sans-serif" },
     style: "minimal",
@@ -94,6 +102,8 @@ export const themes: Theme[] = [
       textMain: "#292524",
       gray: "#78716C",
       background: "#FFFBF5",
+      heroFrom: "#0c0a09",
+      heroTo: "#1C1917",
     },
     fonts: { display: "serif", body: "sans-serif" },
     style: "moderate",
@@ -113,9 +123,53 @@ export const themes: Theme[] = [
       textMain: "#0F172A",
       gray: "#64748B",
       background: "#ffffff",
+      heroFrom: "#020617",
+      heroTo: "#0F172A",
     },
     fonts: { display: "sans-serif", body: "sans-serif" },
     style: "minimal",
+  },
+  {
+    id: "vivid-violet",
+    name: "Vivid Violet & Pink",
+    nameKo: "비비드 바이올렛",
+    description: "Bold electric purple with hot pink accents. A vivid, energetic look that transforms the entire site with eye-catching gradients.",
+    descriptionKo: "일렉트릭 퍼플과 핫 핑크의 대담하고 에너지 넘치는 디자인. 눈길을 사로잡는 비비드한 그라데이션으로 사이트 전체가 확 바뀝니다.",
+    tags: ["Vivid", "Bold", "Purple"],
+    colors: {
+      primary: "#8B5CF6",
+      secondary: "#2E1065",
+      accent: "#F472B6",
+      neutral: "#FAF5FF",
+      textMain: "#1E1B4B",
+      gray: "#7C7C9A",
+      background: "#FEFCFF",
+      heroFrom: "#1a0533",
+      heroTo: "#3B0764",
+    },
+    fonts: { display: "sans-serif", body: "sans-serif" },
+    style: "moderate",
+  },
+  {
+    id: "sunshine-orange",
+    name: "Sunshine Orange & Gold",
+    nameKo: "선샤인 오렌지",
+    description: "Radiant orange with bright golden yellow accents. A warm, cheerful, and unmistakably bright theme with maximum visual impact.",
+    descriptionKo: "찬란한 오렌지와 밝은 골든 옐로우의 밝고 경쾌한 디자인. 따뜻하고 에너지 넘치는 비주얼로 확연한 변화를 줍니다.",
+    tags: ["Bright", "Cheerful", "Warm"],
+    colors: {
+      primary: "#EA580C",
+      secondary: "#431407",
+      accent: "#FBBF24",
+      neutral: "#FFF7ED",
+      textMain: "#1C1917",
+      gray: "#78716C",
+      background: "#FFFAF5",
+      heroFrom: "#1a0a02",
+      heroTo: "#7C2D12",
+    },
+    fonts: { display: "serif", body: "sans-serif" },
+    style: "moderate",
   },
 ];
 

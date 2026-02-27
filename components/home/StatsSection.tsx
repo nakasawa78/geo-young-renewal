@@ -10,19 +10,19 @@ const stats = [
     label: "설립년도",
     description: "끊임없는 성장의 역사",
     icon: (
-      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#1B365D" strokeWidth="1.5">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
         <circle cx="12" cy="12" r="10" />
         <polyline points="12 6 12 12 16 14" />
       </svg>
     ),
   },
   {
-    number: 2902,
-    suffix: "명",
+    number: 1000,
+    suffix: "명+",
     label: "사원수",
     description: "전문 헬스케어 인력",
     icon: (
-      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#1B365D" strokeWidth="1.5">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
         <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
         <circle cx="9" cy="7" r="4" />
         <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
@@ -35,19 +35,19 @@ const stats = [
     label: "매출액",
     description: "그룹 연결 기준",
     icon: (
-      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#1B365D" strokeWidth="1.5">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
         <line x1="12" y1="1" x2="12" y2="23" />
         <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
       </svg>
     ),
   },
   {
-    number: 61,
-    suffix: "개",
+    number: 15,
+    suffix: "개+",
     label: "물류센터",
     description: "전국 물류 네트워크",
     icon: (
-      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#1B365D" strokeWidth="1.5">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
         <rect x="1" y="3" width="15" height="13" />
         <polygon points="16 8 20 8 23 11 23 16 16 16 16 8" />
         <circle cx="5.5" cy="18.5" r="2.5" />
@@ -72,7 +72,7 @@ export default function StatsSection() {
               className="text-center lg:border-r last:border-r-0 border-gray-200"
             >
               <div className="flex justify-center mb-4">
-                <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center">
+                <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center text-primary">
                   {stat.icon}
                 </div>
               </div>
