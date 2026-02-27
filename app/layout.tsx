@@ -3,6 +3,7 @@ import { Playfair_Display, DM_Sans, Noto_Sans_KR, Noto_Serif_KR } from "next/fon
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import ChatWidget from "@/components/common/ChatWidget";
 import ThemeProvider from "@/lib/ThemeProvider";
 
 const playfairDisplay = Playfair_Display({
@@ -50,6 +51,7 @@ export default function RootLayout({
           <Header />
           <main>{children}</main>
           <Footer />
+          <ChatWidget />
         </ThemeProvider>
       </body>
     </html>
